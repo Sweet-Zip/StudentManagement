@@ -14,16 +14,14 @@ private:
     string dob;
     string address;
     string role;
-//    bool IsLoggedIn();
-//    void log();
     bool is_valid_email(const string& email);
     bool is_valid_number(const string& number);
     bool is_valid_name(const string& name);
     bool is_valid_password(string& password);
 
 protected:
-    string username;
     string password;
+    string username;
 public:
     User();
 
@@ -33,6 +31,7 @@ public:
     int getPhone();
     void setPhone(int phone);
     string getUsername();
+    void setUsername(string username);
     string getPassword();
     void setPassword(string password);
     string getDob();
@@ -44,8 +43,6 @@ public:
     void CreateUser();
     void EditUser();
     void DisplayUser();
-
-    void setUsername(string basicString);
 };
 
 #endif //UNTITLED3_USER_H

@@ -4,6 +4,7 @@
 
 #include <regex>
 #include "User.h"
+#include "menu.h"
 #include <string>
 #include <iostream>
 
